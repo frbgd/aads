@@ -57,6 +57,20 @@ public:
 			cout << endl;
 		}
 	}
+	bool Search(int number) {
+		int index = number % size;
+		if (arr[index] == nullptr)
+			return false;
+		int i = -1;
+		for (List *p = arr[index]; p != nullptr; p = p->pNext) {
+			i++;
+			if (p->field == number) {
+				cout << "Find " << number << " in list " << size << " in place " << i << endl;
+				return true;
+			}
+		}
+		return false;
+	}
 };
 
 int main() {
@@ -75,5 +89,6 @@ int main() {
 	HT.Print(); HT.Insert(11);
 	HT.Print(); HT.Insert(12);
 	HT.Print();
+	bool kek = HT.Search(7);
 	return 0;
 }

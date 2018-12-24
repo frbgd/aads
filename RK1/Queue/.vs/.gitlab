@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 3200943,
+    "Username": "frbgd",
+    "Name": "Aleksey Kucheryavenko",
+    "Email": "kap17597@gmail.com",
+    "AvatarUrl": "https://assets.gitlab-static.net/uploads/-/system/user/avatar/3200943/avatar.png",
+    "PrivateToken": "b13338904e9f1446bbc0ea877bc7114cef4c0a39b687340850d1841e658b2386",
+    "Host": "https://gitlab.com",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 3
+  }
+}
